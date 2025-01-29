@@ -38,14 +38,13 @@ public class LoginUtil {
 		System.out.println("connection sucess"+con);
 		Statement s = con.createStatement();
 		//String query = "create table users(id int(11) NOT NULL AUTO_INCREMENT,username varchar(87),password varchar(45),email varchar(89),phonenum varchar(90))";
-		String query = "CREATE TABLE users("
-                + "ID INTEGER NOT NULL PRIMARY KEY GENERATED ALWAYS AS IDENTITY"
-                +"(START WITH 1,INCREMENT BY 1),"
-                + "uname varchar(200),"
-                + "password varchar(200),"
-                + "email varchar(200),"
-                + "phonenum varchar(200))";
-		s.executeUpdate(query);
+		/*
+		 * String query = "CREATE TABLE users(" +
+		 * "ID INTEGER NOT NULL PRIMARY KEY GENERATED ALWAYS AS IDENTITY"
+		 * +"(START WITH 1,INCREMENT BY 1)," + "uname varchar(200)," +
+		 * "password varchar(200)," + "email varchar(200)," + "phonenum varchar(200))";
+		 * s.executeUpdate(query);
+		 */
 		System.out.println("table or stmt created");
 		con.close();
 	}
