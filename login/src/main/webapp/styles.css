@@ -1,0 +1,66 @@
+/* bordered from(gives boreder for complete form )*/
+ html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+form{
+	border: 10px solid purple;
+	padding: 25px;
+	
+	
+}
+/* Full-width inputs */
+input[type="text"],input[type="password"]{
+  
+  /*padding property two values means top and bottom 12px, left and right 20px
+  padding it gives space for around the element */
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid blue;
+  box-sizing: border-box;
+  width: 100%;
+  
+}
+::placeholder { /* Most modern browsers support this now. */
+   color:    red;
+}
+label[for="username"],label[for="password"]{
+	color: DeepPink;
+	font-size:  25px
+}
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  text-align: center;
+}
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  
+}
+
+/* Avatar image */
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}

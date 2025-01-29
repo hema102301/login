@@ -1,0 +1,33 @@
+
+p{
+	text-align : center;
+	color : white;
+	font-size: 50px
+}
+label[for="newuser"],label[for="AlreadyRegistered"]{	
+	font-size:  25px
+	
+}
+.label{
+	width: 50px;
+	margin: 8px 0;
+}
+#form{
+	text-align : center;
+}
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  text-align : center;
+}
+.button1{
+	margin-left :60px;
+}
+button:hover {
+  opacity: 0.8;
+}
